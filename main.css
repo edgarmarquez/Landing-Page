@@ -1,0 +1,208 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+body{font-family:Helvetica;
+     font-size:16px;     
+}
+
+#whole_page{min-width:960px; margin:0 auto;}
+
+/*Header starts here*/
+header{
+	padding: 10px 10px;
+    
+}
+
+header #logo{
+	width:250px;
+	height:80px;
+	margin-left:40px;
+}/*Header ends here*/
+
+section{width:100%;
+	height:540px;
+	/*border:1px solid blue;*/
+	
+}
+
+section img{float:left;
+   width:40%;
+   margin:2% 4%;
+   /*border:1px dashed red;*/
+}
+
+
+section #text{float:right;
+	width:40%;
+	font-size:30px;
+	margin-right:6.3%;
+	margin-top:100px;
+	line-height:1.17em;
+	max-width:100%;
+	/*border:1px dashed green;*/
+	padding:1%;
+}
+
+section #button {float:right;
+	/*border:1px dashed blue;*/
+	width:38%;
+	height:50px;
+	font-size:30px;
+	text-align: center;
+	padding:3%;
+	text-decoration: none;
+	margin-top:30px;
+	margin-right:56%;
+	color:#fff;
+	padding-top:1.7%;
+	border-radius:6px;
+	background: linear-gradient(#6c0, #390);
+	background: #66cc00; /* Old browsers */
+    background: -moz-linear-gradient(top,  #66cc00 0%, #339900 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#66cc00), color-stop(100%,#339900)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #66cc00 0%,#339900 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #66cc00 0%,#339900 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #66cc00 0%,#339900 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #66cc00 0%,#339900 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66cc00', endColorstr='#339900',GradientType=0 ); /* IE6-9 */﻿
+}
+
+a #button{text-decoration:none;
+	color:#fff;
+}
+
+a #button:hover{
+	text-decoration:none;
+	background:#e93cec;
+}
+
+div #facts_labels{width:100%;/*Starts here*/
+	height:400px;
+	background:#39f;
+	clear:both;
+	/*border:1px solid black;*/
+}
+
+p#subtitle {margin-left:20px;
+	padding-top:25px;
+	padding-bottom:5px;
+	font-weight: bold;
+	font-size:30px;
+    color:#fff;
+}
+
+.wrap {display:block;
+	background: #000;
+	color:#fff;
+	width:50%;
+    margin:15px;
+    padding:2%;
+    border-radius: 5px;
+    font-size:16px;
+    line-height:1.5em;
+}
+
+#labels{float:right;
+	width:40%;
+	height:267px;
+	background:#fff;
+	border-radius:5px;
+	margin-right:15px;
+	margin-top:15px;
+}
+
+.inner {float:left;
+	width:13%;
+	height:67px;
+    margin:2% 2%;
+    padding-left:16px;
+
+}
+
+.inner img{max-width: 100%;/*facts_labels Ends here*/
+}
+
+div#footer{
+	width:100%;
+	height:260px;
+	background: #000
+} 
+
+.social{
+	width:100px;
+	height:100px;
+} 
+
+#social_media{margin:0 auto;
+	width:500px;
+	height:120px;
+
+	
+} 
+
+li{display:inline-block;
+	margin-left:40px;
+	margin-top:40px;
+
+}
+
+#copyright{width:350px;
+	height:30px;
+	margin:auto;
+	color:white;
+	font-size: 18px;
+	margin-top:60px;
+}
+
+
+
+
+
